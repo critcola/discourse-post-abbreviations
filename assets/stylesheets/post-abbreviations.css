@@ -1,3 +1,5 @@
 abbr.dpa-abbr {
-	border-bottom: 0;
+	border-bottom: none !important;
+	cursor: inherit !important;
+	text-decoration: none !important;
 }
