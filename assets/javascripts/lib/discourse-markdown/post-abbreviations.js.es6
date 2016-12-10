@@ -56,7 +56,7 @@ function abbrWellKnown (text) {
 		.replace(/\b(hdd)\b/ig, "<abbr class=\"dpa-abbr\" title=\"hard disk drive\">HDD</abbr>")
 		.replace(/\b(hdmi)\b/ig, "<abbr class=\"dpa-abbr\" title=\"High-Definition Multimedia Interface\">HDMI</abbr>")
 		.replace(/\b(HoT)\b/g, "<abbr class=\"dpa-abbr\" title=\"healing over time\">HoT</abbr>")
-		.replace(/\b(hots)\b/ig, "<abbr class=\"dpa-abbr\" title=\"Heroes of the Storm\">HoTS</abbr>")
+		.replace(/\b(hots)\b/ig, "<abbr class=\"dpa-abbr\" title=\"Heroes of the Storm\">HotS</abbr>")
 		.replace(/\b(idc)\b/ig, "<abbr class=\"dpa-abbr\" title=\"I don't care\">IDC</abbr>")
 		.replace(/\b(idgaf)\b/ig, "<abbr class=\"dpa-abbr\" title=\"I don't give a fuck\">IDGAF</abbr>")
 		.replace(/\b(idk)\b/ig, "<abbr class=\"dpa-abbr\" title=\"I don't know\">IDK</abbr>")
