@@ -12,6 +12,7 @@ function abbrWellKnown (text) {
 		.replace(/\b(ai)\b/ig, "<abbr class=\"dpa-abbr\" title=\"artificial intelligence\">AI</abbr>")
 		.replace(/\b(aka)\b/ig, "<abbr class=\"dpa-abbr\" title=\"also known as\">AKA</abbr>")
 		.replace(/\b(aoe)\b/ig, "<abbr class=\"dpa-abbr\" title=\"area of effect\">AoE</abbr>")
+		.replace(/\b(arg)\b/ig, "<abbr class=\"dpa-abbr\" title=\"alternate reality game\">ARG</abbr>")
 		.replace(/\b(atm)\b/ig, "<abbr class=\"dpa-abbr\" title=\"at the moment\">ATM</abbr>")
 		.replace(/\b(bamf)\b/ig, "<abbr class=\"dpa-abbr\" title=\"badass mother fucker\">BAMF</abbr>")
 		.replace(/\b(BIOS)\b/g, "<abbr class=\"dpa-abbr\" title=\"Basic Input/Output System\">BIOS</abbr>")
