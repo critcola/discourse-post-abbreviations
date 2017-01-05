@@ -58,6 +58,7 @@ function abbrWellKnown (text) {
 		.replace(/\b(hdmi)\b/ig, "<abbr class=\"dpa-abbr\" title=\"High-Definition Multimedia Interface\">HDMI</abbr>")
 		.replace(/\b(HoT)\b/g, "<abbr class=\"dpa-abbr\" title=\"healing over time\">HoT</abbr>")
 		.replace(/\b(hots)\b/ig, "<abbr class=\"dpa-abbr\" title=\"Heroes of the Storm\">HotS</abbr>")
+		.replace(/\b(icymi)\b/ig, "<abbr class=\"dpa-abbr\" title=\"in case you missed it\">ICYMI</abbr>")
 		.replace(/\b(idc)\b/ig, "<abbr class=\"dpa-abbr\" title=\"I don't care\">IDC</abbr>")
 		.replace(/\b(idgaf)\b/ig, "<abbr class=\"dpa-abbr\" title=\"I don't give a fuck\">IDGAF</abbr>")
 		.replace(/\b(idk)\b/ig, "<abbr class=\"dpa-abbr\" title=\"I don't know\">IDK</abbr>")
@@ -117,11 +118,12 @@ function abbrWellKnown (text) {
 		.replace(/\b(ssd)\b/ig, "<abbr class=\"dpa-abbr\" title=\"solid state drive\">SSD</abbr>")
 		.replace(/\b(stfu)\b/ig, "<abbr class=\"dpa-abbr\" title=\"shut the fuck up\">STFU</abbr>")
 		.replace(/\b(SWIM)\b/g, "<abbr class=\"dpa-abbr\" title=\"someone who isn't me\">SWIM</abbr>")
-		.replace(/\b(tba)\b/ig, "<abbr class=\"dpa-abbr\" title=\"to be announced\">OMW</abbr>")
+		.replace(/\b(tba)\b/ig, "<abbr class=\"dpa-abbr\" title=\"to be announced\">TBA</abbr>")
 		.replace(/\b(tbd)\b/ig, "<abbr class=\"dpa-abbr\" title=\"to be determined\">OMW</abbr>")
 		.replace(/\b(tbh)\b/ig, "<abbr class=\"dpa-abbr\" title=\"to be honest\">TBH</abbr>")
 		.replace(/\b(tf2)\b/ig, "<abbr class=\"dpa-abbr\" title=\"Team Fortress 2\">TF2</abbr>")
 		.replace(/\b(tfw)\b/ig, "<abbr class=\"dpa-abbr\" title=\"that feel when\">TFW</abbr>")
+		.replace(/\b(TIL)\b/g, "<abbr class=\"dpa-abbr\" title=\"today I learned\">TIL</abbr>")
 		.replace(/\b(tlc)\b/ig, "<abbr class=\"dpa-abbr\" title=\"tender loving care\">TLC</abbr>")
 		.replace(/\b(tmi)\b/ig, "<abbr class=\"dpa-abbr\" title=\"too much information\">TMI</abbr>")
 		.replace(/\b(ttyl)\b/ig, "<abbr class=\"dpa-abbr\" title=\"talk to you later\">TTYL</abbr>")
@@ -138,6 +140,7 @@ function abbrWellKnown (text) {
 		.replace(/\b(wtf)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what the fuck\">WTF</abbr>")
 		.replace(/\b(wth)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what the hell\">WTH</abbr>")
 		.replace(/\b(wts)\b/ig, "<abbr class=\"dpa-abbr\" title=\"want to sell\">WTS</abbr>")
+		.replace(/\b(wym)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what do you mean?\">WYM</abbr>")
 		.replace(/\b(wysiwyg)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what you see is what you get\">WYSIWYG</abbr>");
 }
 
