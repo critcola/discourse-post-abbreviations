@@ -22,9 +22,15 @@ function abbrWellKnown (text) {
 		.replace(/\b(B[oO]P)\b/g, "<abbr class=\"dpa-abbr\" title=\"bind on pickup\">BoP</abbr>")
 		.replace(/\b(brb)\b/ig, "<abbr class=\"dpa-abbr\" title=\"be right back\">BRB</abbr>")
 		.replace(/\b(btw)\b/ig, "<abbr class=\"dpa-abbr\" title=\"by the way\">BTW</abbr>")
+		.replace(/\b(dlc)\b/ig, "<abbr class=\"dpa-abbr\" title=\"downloadable content\">DLC</abbr>")
+		.replace(/\b(ceo)\b/ig, "<abbr class=\"dpa-abbr\" title=\"Chief Executive Officer\">CEO</abbr>")
+		.replace(/\b(cfo)\b/ig, "<abbr class=\"dpa-abbr\" title=\"Chief Financial Officer\">CFO</abbr>")
+		.replace(/\b(cio)\b/ig, "<abbr class=\"dpa-abbr\" title=\"Chief Information Officer\">CEO</abbr>")
+		.replace(/\b(cmo)\b/ig, "<abbr class=\"dpa-abbr\" title=\"Chief Marketing Officer\">CMO</abbr>")
 		.replace(/\b(cmos)\b/ig, "<abbr class=\"dpa-abbr\" title=\"complementary metal-oxide-semiconductor\">CMOS</abbr>")
 		.replace(/\b(cob)\b/ig, "<abbr class=\"dpa-abbr\" title=\"close of business\">COB</abbr>")
 		.replace(/\b(cpu)\b/ig, "<abbr class=\"dpa-abbr\" title=\"central processing unit\">CPU</abbr>")
+		.replace(/\b(cto)\b/ig, "<abbr class=\"dpa-abbr\" title=\"Chief Technology Officer\">CTO</abbr>")
 		.replace(/\b(dimm)\b/ig, "<abbr class=\"dpa-abbr\" title=\"dual in-line memory module\">DIMM</abbr>")
 		.replace(/\b(diy)\b/ig, "<abbr class=\"dpa-abbr\" title=\"do it yourself\">DIY</abbr>")
 		.replace(/\b(dlc)\b/ig, "<abbr class=\"dpa-abbr\" title=\"downloadable content\">DLC</abbr>")
@@ -140,7 +146,7 @@ function abbrWellKnown (text) {
 		.replace(/\b(wtf)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what the fuck\">WTF</abbr>")
 		.replace(/\b(wth)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what the hell\">WTH</abbr>")
 		.replace(/\b(wts)\b/ig, "<abbr class=\"dpa-abbr\" title=\"want to sell\">WTS</abbr>")
-		.replace(/\b(wym)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what do you mean?\">WYM</abbr>")
+		.replace(/\b(wym)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what do you mean\">WYM</abbr>")
 		.replace(/\b(wysiwyg)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what you see is what you get\">WYSIWYG</abbr>");
 }
 
