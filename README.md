@@ -43,4 +43,4 @@ Crit Cola is connecting and empowering the world's best players. Primarily an [O
 
 ## License
 
-The Discourse SEO Abbreviations plugin is released under the [MIT License](LICENSE).
+The Discourse Post Abbreviations plugin is released under the [MIT License](LICENSE).
