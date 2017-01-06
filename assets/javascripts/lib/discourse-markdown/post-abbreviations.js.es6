@@ -11,6 +11,7 @@ function abbrWellKnown (text) {
 		.replace(/\b(afk)\b/ig, "<abbr class=\"dpa-abbr\" title=\"away from keyboard\">AFK</abbr>")
 		.replace(/\b(ai)\b/ig, "<abbr class=\"dpa-abbr\" title=\"artificial intelligence\">AI</abbr>")
 		.replace(/\b(aka)\b/ig, "<abbr class=\"dpa-abbr\" title=\"also known as\">AKA</abbr>")
+		.replace(/\b(ama)\b/ig, "<abbr class=\"dpa-abbr\" title=\"ask me anything\">ask me anything</abbr>")
 		.replace(/\b(aoe)\b/ig, "<abbr class=\"dpa-abbr\" title=\"area of effect\">AoE</abbr>")
 		.replace(/\b(arg)\b/ig, "<abbr class=\"dpa-abbr\" title=\"alternate reality game\">ARG</abbr>")
 		.replace(/\b(atm)\b/ig, "<abbr class=\"dpa-abbr\" title=\"at the moment\">ATM</abbr>")
@@ -31,6 +32,7 @@ function abbrWellKnown (text) {
 		.replace(/\b(cob)\b/ig, "<abbr class=\"dpa-abbr\" title=\"close of business\">COB</abbr>")
 		.replace(/\b(cpu)\b/ig, "<abbr class=\"dpa-abbr\" title=\"central processing unit\">CPU</abbr>")
 		.replace(/\b(cto)\b/ig, "<abbr class=\"dpa-abbr\" title=\"Chief Technology Officer\">CTO</abbr>")
+		.replace(/\b(diaf)\b/ig, "<abbr class=\"dpa-abbr\" title=\"die in a fire\">DIAF</abbr>")
 		.replace(/\b(dimm)\b/ig, "<abbr class=\"dpa-abbr\" title=\"dual in-line memory module\">DIMM</abbr>")
 		.replace(/\b(diy)\b/ig, "<abbr class=\"dpa-abbr\" title=\"do it yourself\">DIY</abbr>")
 		.replace(/\b(dlc)\b/ig, "<abbr class=\"dpa-abbr\" title=\"downloadable content\">DLC</abbr>")
@@ -48,6 +50,7 @@ function abbrWellKnown (text) {
 		.replace(/\b(ez)\b/ig, "<abbr class=\"dpa-abbr\" title=\"easy\">EZ</abbr>")
 		.replace(/\b(faq)\b/ig, "<abbr class=\"dpa-abbr\" title=\"frequently asked question\">FAQ</abbr>")
 		.replace(/\b(faqs)\b/ig, "<abbr class=\"dpa-abbr\" title=\"frequently asked questions\">FAQs</abbr>")
+		.replace(/\b(ftfy)\b/ig, "<abbr class=\"dpa-abbr\" title=\"fixed that for you\">FTFY</abbr>")
 		.replace(/\b(ftw)\b/ig, "<abbr class=\"dpa-abbr\" title=\"for the win\">FTW</abbr>")
 		.replace(/\b(fwiw)\b/ig, "<abbr class=\"dpa-abbr\" title=\"for what it's worth\">FWIW</abbr>")
 		.replace(/\b(fyi)\b/ig, "<abbr class=\"dpa-abbr\" title=\"for your information\">FYI</abbr>")
@@ -95,6 +98,7 @@ function abbrWellKnown (text) {
 		.replace(/\b(npc)\b/ig, "<abbr class=\"dpa-abbr\" title=\"non-player character\">NPC</abbr>")
 		.replace(/\b(nsfw)\b/ig, "<abbr class=\"dpa-abbr\" title=\"not safe for work\">NSFW</abbr>")
 		.replace(/\b(nvm)\b/ig, "<abbr class=\"dpa-abbr\" title=\"never mind\">NVM</abbr>")
+		.replace(/\b(oc)\b/ig, "<abbr class=\"dpa-abbr\" title=\"original content\">OC</abbr>")
 		.replace(/\b(oem)\b/ig, "<abbr class=\"dpa-abbr\" title=\"original equipment manufacturer\">Mbps</abbr>")
 		.replace(/\b(OLED)\b/g, "<abbr class=\"dpa-abbr\" title=\"organic light-emitting diode\">OLED</abbr>")
 		.replace(/\b(omfg)\b/ig, "<abbr class=\"dpa-abbr\" title=\"on my fucking god\">OMFG</abbr>")
@@ -104,6 +108,7 @@ function abbrWellKnown (text) {
 		.replace(/\b(otw)\b/ig, "<abbr class=\"dpa-abbr\" title=\"on the way\">OTW</abbr>")
 		.replace(/\b(potg)\b/ig, "<abbr class=\"dpa-abbr\" title=\"play of the game\">PotG</abbr>")
 		.replace(/\b(pov)\b/ig, "<abbr class=\"dpa-abbr\" title=\"point of view\">POV</abbr>")
+		.replace(/\b(psa)\b/ig, "<abbr class=\"dpa-abbr\" title=\"public service announcement\">PSA</abbr>")
 		.replace(/\b(psu)\b/ig, "<abbr class=\"dpa-abbr\" title=\"power supply unit\">PSU</abbr>")
 		.replace(/\b(ptr)\b/ig, "<abbr class=\"dpa-abbr\" title=\"public test realm/region\">PTR</abbr>")
 		.replace(/\b(PUG)\b/g, "<abbr class=\"dpa-abbr\" title=\"pick-up group\">PUG</abbr>")
@@ -127,10 +132,12 @@ function abbrWellKnown (text) {
 		.replace(/\b(tba)\b/ig, "<abbr class=\"dpa-abbr\" title=\"to be announced\">TBA</abbr>")
 		.replace(/\b(tbd)\b/ig, "<abbr class=\"dpa-abbr\" title=\"to be determined\">OMW</abbr>")
 		.replace(/\b(tbh)\b/ig, "<abbr class=\"dpa-abbr\" title=\"to be honest\">TBH</abbr>")
+		.replace(/\b(tf)\b/ig, "<abbr class=\"dpa-abbr\" title=\"the fuck\">TF</abbr>")
 		.replace(/\b(tf2)\b/ig, "<abbr class=\"dpa-abbr\" title=\"Team Fortress 2\">TF2</abbr>")
 		.replace(/\b(tfw)\b/ig, "<abbr class=\"dpa-abbr\" title=\"that feel when\">TFW</abbr>")
 		.replace(/\b(TIL)\b/g, "<abbr class=\"dpa-abbr\" title=\"today I learned\">TIL</abbr>")
 		.replace(/\b(tlc)\b/ig, "<abbr class=\"dpa-abbr\" title=\"tender loving care\">TLC</abbr>")
+		.replace(/\b(tl;?dr)\b/ig, "<abbr class=\"dpa-abbr\" title=\"too long, didn't read\">TL;DR</abbr>")
 		.replace(/\b(tmi)\b/ig, "<abbr class=\"dpa-abbr\" title=\"too much information\">TMI</abbr>")
 		.replace(/\b(ttyl)\b/ig, "<abbr class=\"dpa-abbr\" title=\"talk to you later\">TTYL</abbr>")
 		.replace(/\b(ty)\b/ig, "<abbr class=\"dpa-abbr\" title=\"thank you\">TY</abbr>")
@@ -147,7 +154,8 @@ function abbrWellKnown (text) {
 		.replace(/\b(wth)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what the hell\">WTH</abbr>")
 		.replace(/\b(wts)\b/ig, "<abbr class=\"dpa-abbr\" title=\"want to sell\">WTS</abbr>")
 		.replace(/\b(wym)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what do you mean\">WYM</abbr>")
-		.replace(/\b(wysiwyg)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what you see is what you get\">WYSIWYG</abbr>");
+		.replace(/\b(wysiwyg)\b/ig, "<abbr class=\"dpa-abbr\" title=\"what you see is what you get\">WYSIWYG</abbr>")
+		.replace(/\b(ymmv)\b/ig, "<abbr class=\"dpa-abbr\" title=\"your mileage may vary\">YMMV</abbr>");
 }
 
 export function setup(helper) {
