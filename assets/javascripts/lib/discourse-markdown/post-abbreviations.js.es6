@@ -129,7 +129,7 @@ function abbrWellKnown (text) {
 		.replace(/\b(stfu)\b/ig, "<abbr class=\"dpa-abbr\" title=\"shut the fuck up\">STFU</abbr>")
 		.replace(/\b(SWIM)\b/g, "<abbr class=\"dpa-abbr\" title=\"someone who isn't me\">SWIM</abbr>")
 		.replace(/\b(tba)\b/ig, "<abbr class=\"dpa-abbr\" title=\"to be announced\">TBA</abbr>")
-		.replace(/\b(tbd)\b/ig, "<abbr class=\"dpa-abbr\" title=\"to be determined\">OMW</abbr>")
+		.replace(/\b(tbd)\b/ig, "<abbr class=\"dpa-abbr\" title=\"to be determined\">TBD</abbr>")
 		.replace(/\b(tbh)\b/ig, "<abbr class=\"dpa-abbr\" title=\"to be honest\">TBH</abbr>")
 		.replace(/\b(tf)\b/ig, "<abbr class=\"dpa-abbr\" title=\"the fuck\">TF</abbr>")
 		.replace(/\b(tf2)\b/ig, "<abbr class=\"dpa-abbr\" title=\"Team Fortress 2\">TF2</abbr>")
